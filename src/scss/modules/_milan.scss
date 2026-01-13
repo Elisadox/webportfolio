@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.img-small {
+  width: 100%;
+  height: auto;
+}
+.img-large {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Urban Syndicate Sans", sans-serif;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 500px;
+}
+h2 {
+  color: #fff;
+  font-family: "Urban Syndicate Sans", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+h3 {
+  color: #fff;
+  font-family: "Urban Syndicate Sans DEMO";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.title-about {
+  color: #fff;
+  font-family: "Urban Syndicate Sans DEMO";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 35%;
+}
+
+.undertitle-about {
+  color: #fff;
+  font-family: "Urban Syndicate Sans DEMO";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: -5%;
+}
+.texte-about {
+  color: #fff;
+  font-family: "Urban Syndicate Sans DEMO";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 50%;
+}
+.titles-about {
+  color: #fff;
+  font-family: "Urban Syndicate Sans DEMO";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.undertitles-about {
+  color: #fff;
+  font-family: "Urban Syndicate Sans DEMO";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 184.615% */
+}
+.school-about {
+  color: #fff;
+  font-family: "Urban Syndicate Sans DEMO";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -5%;
+}
+.background {
+  background-size: 100%;
+}
+.background img {
+  width: 100vw;
+}
+body {
+  background-color: black;
+}
+
+.gallery-item {
+  margin-bottom: 10px;
+}
+
+.grid-sizer {
+  visibility: hidden;
+}
+.nav-bar {
+  color: #fff;
+  font-family: "Urban Syndicate Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+
+  a {
+    text-decoration: none;
+  }
+}
+h2 {
+  color: #fff;
+  font-family: "Urban Syndicate Sans", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.background-work {
+  background-image: url(../img/work.jpg);
+  background-size: 100%;
+  background-position: center;
+  height: 100vh;
+}
+.background-photography {
+  background-image: url(../img/work.jpg);
+  background-size: 100%;
+  background-position: center;
+  height: 100vh;
+}
+.background-index {
+  background-image: url(../img/index.jpg);
+  background-size: 100%;
+  background-position: center;
+  height: 100vh;
+}
+.burger {
+  color: #fff;
+  font-family: "Urban Syndicate Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 200px;
+
+  a {
+    text-decoration: none;
+  }
+}
+.titre {
+  margin-top: 200px;
+}
+.img-work {
+  margin-top: 50px;
+}
+.background-contact {
+  background-size: 100%;
+  background-position: center;
+  height: 100vh;
+}
+.carousel-cell {
+  width: 25%;
+  height: 100vh;
+}
+.main-carousel {
+  // justify-content: space-between;
+  display: display-flex;
+  // gap: 10px;
+  // margin: 20px; /* Adjust margin if needed */
+}
+// /* .flickity-viewport {
+//   height: 150vh !important;
+// } */

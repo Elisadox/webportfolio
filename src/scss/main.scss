@@ -1,0 +1,16 @@
+@import "font";
+@import "base";
+@import "layout";
+@import "modules/example";
+@import "bootstrap/scss/bootstrap-grid";
+@import "bootstrap/scss/bootstrap-utilities";
+@import "modules/mainpage";
+@import "modules/milan";
+@import "../../node_modules/flickity/css/flickity.css";
+
+@font-face {
+  font-family: "Urban Syndicate Sans";
+  src: url("../font/Urban Syndicate Sans DEMO.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
