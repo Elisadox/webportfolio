@@ -1,0 +1,167 @@
+.main-title {
+  color: #fff;
+  font-family: "Urban Syndicate Sans ";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.second-title {
+  color: #fff;
+  font-family: "Urban Syndicate Sans ";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -5px;
+  filter: blur(0.5px);
+  margin-top: -25px;
+}
+
+.title-main {
+  padding-top: 20%;
+  padding-left: -50%;
+}
+.background-index {
+  background-image: url(../img/index.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; // ✅ Ajoutez cette ligne
+  height: 100vh;
+}
+// Message mobile - caché par défaut
+// Message mobile
+.mobile-warning {
+  display: none;
+
+  @media (max-width: 768px) {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.95);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.mobile-warning-content {
+  text-align: center;
+  color: #fff;
+  padding: 40px;
+
+  p {
+    font-family: "Urban Syndicate Sans";
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+  .mobile-social {
+    font-family: "Urban Syndicate Sans";
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+  }
+
+  .mobile-signature {
+    font-family: "Urban Syndicate Sans";
+    font-size: 14px;
+    margin-top: 30px;
+    opacity: 0.7;
+  }
+}
+
+// Bouton Instagram
+.instagram-button {
+  display: inline-block;
+  background: linear-gradient(
+    45deg,
+    #8b0045 0%,
+    // Rose très foncé
+    #c71585 25%,
+    // Rose foncé (magenta)
+    #ff1493 50%,
+    // Rose vif (deep pink)
+    #ff69b4 75%,
+    // Rose moyen (hot pink)
+    #ffb6c1 100% // Rose clair (light pink)
+  );
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-family: "Urban Syndicate Sans";
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(188, 24, 136, 0.4);
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(188, 24, 136, 0.6);
+  }
+}
+
+// Cache le contenu sur mobile
+@media (max-width: 768px) {
+  .background-index {
+    display: none;
+  }
+}
+
+// Styles pour desktop
+.background-index {
+  background-image: url(../img/index.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.main-title {
+  color: #fff;
+  font-family: "Urban Syndicate Sans";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.second-title {
+  color: #fff;
+  font-family: "Urban Syndicate Sans";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -5px;
+  filter: blur(0.5px);
+  margin-top: -35px;
+}
+
+.title-main {
+  padding-top: 20%;
+  padding-left: -50%;
+}
+
+.burger {
+  color: #fff;
+  font-family: "Urban Syndicate Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 200px;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}

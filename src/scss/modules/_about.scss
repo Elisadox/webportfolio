@@ -1,0 +1,57 @@
+.background-contact {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; // Prend tout l'écran
+  width: 100%;
+}
+
+.content-section {
+  background-color: #000; // Fond noir pour la section texte
+  padding-top: 80px;
+  padding-bottom: 80px;
+  min-height: 100vh;
+}
+
+.title-about {
+  color: #fff;
+  font-family: "Urban Syndicate Sans";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 40%;
+}
+
+.undertitle-about {
+  color: #fff;
+  font-family: "Urban Syndicate Sans";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.texte-about {
+  color: #fff;
+  font-family: "Urban Syndicate Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6; // Meilleure lisibilité
+  margin-top: 0; // Plus de margin-top de 50%
+  margin-bottom: 60px;
+}
+
+.titles-about {
+  color: #ff0090;
+  font-family: "Urban Syndicate Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.row {
+  margin-bottom: -10px;
+}
